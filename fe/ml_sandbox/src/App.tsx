@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import './App.css';
 
-function App() {
-  const [count, setCount] = useState(0);
+const App: React.FC = () => {
+  const [count, setCount] = useState(2);
 
   return (
     <div className="App">
@@ -30,6 +29,6 @@ function App() {
       </p>
     </div>
   );
-}
+};
 
 export default App;
